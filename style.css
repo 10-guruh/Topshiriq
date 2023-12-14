@@ -1,0 +1,144 @@
+@font-face { font-family: "ReithSans"; src: url("https://static.files.bbci.co.uk/fonts/reith/2.512/BBCReithSans_W_Bd.woff2") format("woff2"), url("https://static.files.bbci.co.uk/fonts/reith/2.512/BBCReithSans_W_Bd.woff") format("woff"); font-weight: 700; font-display: swap; }
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "ReithSans";
+}
+
+.header {
+    margin-top: 10px;
+    padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  
+  
+  height: 500px;
+  background-color: rgb(13, 26, 63);
+  border-radius: 30px;
+}
+.nav-header {
+    margin-top: -10px;
+  display: flex;
+  flex-direction: row;
+ 
+  font-weight: 700;
+  font-size: 14px;
+
+  width: 140px;
+}
+.nav-header img{
+    width: 40px;
+    height: 30px;
+}
+.nav-header span  a{
+    text-decoration: none;
+    color: rgb(172, 166, 166);
+
+}
+.login-icon {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  background-color: rgb(13, 26, 63);
+  color: rgb(172, 166, 166);
+  text-decoration: none;
+  border: 1px solid;
+  border-radius: 20px;
+
+}
+.login-icon1 {
+    display: flex;
+     height: 40px;
+    align-items: center;
+    background-color: rgb(13, 26, 63);
+        margin-left:50px;
+        color: rgb(172, 166, 166);
+    text-decoration: none;
+    border: 1px solid;
+  border-radius: 20px;
+  }
+
+.login-icon span {
+    position: relative;
+    text-decoration: none;
+    color: rgb(172, 166, 166);
+  }
+
+  
+
+.login-user-icon {
+    background-color: rgb(13, 26, 63);
+  width: 40px;
+  border-radius: 20px;
+}
+.login-user-icon1 {
+    background-color: rgb(13, 26, 63);
+    width: 40px;
+    border-radius: 20px;
+   
+    
+  }
+  .img1{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    margin-left: -220px;
+    margin-top: -5px;
+  }
+.text1 {
+    margin-left: 4px;
+    color: rgb(255, 255, 255);
+}
+
+/* -----Navbar Scetion------- */
+.nav-list {
+  width: 500px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+  
+}
+.nav-list li {
+  list-style: none;
+  padding-left: 40px;
+}
+.nav-list a {
+  position: relative;
+  text-decoration: none;
+  color: rgb(172, 166, 166);
+}
+
+.nav-list a::after {
+    content: '';
+    background-color: rgb(210, 154, 154);
+    height: 2px;
+    width: 0%;
+    left: 0;
+    bottom: -15px;
+    position: absolute;
+    transition: 0.5s;
+}
+.nav-list a:hover::after{
+    width: 100%;
+}
+.left-text{
+    width: 500px;
+    height: 200px;
+ margin-top: -300px;
+   margin-left: 60px;
+   color: white;
+   text-align: justify;
+}
+.left-text h1{
+    text-align: center;
+}
+.img2{
+    width: 700px;
+    height: 500px;
+    margin-left: 648px;
+    margin-top: -320px;
+    border-radius: 20px;
+}
+
